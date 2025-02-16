@@ -1,0 +1,14 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.biorrevolution.nexus",
+      "sha256_cert_fingerprints": [
+        "84:88:FF:7D:B2:A7:14:1F:FE:82:EA:EF:C7:94:D4:C4:8C:79:6E:C5:7B:05:04:03:66:24:EA:8A:D9:F9:AB:F2"
+      ]
+    }
+  }
+]
+
+
