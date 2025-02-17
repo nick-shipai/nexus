@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>nexus screen coming through for testing use this</h1>
+    <a href="getStarted.html">Get Started</a><br><br>
+    <a href="set-up.html">set page up</a>
+    
+
+function hideAnimation() {
+  const signUpBtnText = document.getElementById("signUpBtnText");
+  const animationDiv = document.getElementById("animationDiv");
+  signUpBtnText.style.display = "block";
+  animationDiv.style.display = "none";
+}
+
+/
+
+
+// Switch between forms
+signUpForm.style.display = "block";
+loginForm.style.display = "none";
+
+loginSwitchBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  signUpForm.style.display = "none";
+  loginForm.style.display = "block";
+});
+
+signUpSwitchBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  loginForm.style.display = "none";
+  signUpForm.style.display = "block";
+});
+
+</body>
+</html>
