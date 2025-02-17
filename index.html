@@ -3,44 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Redirect</title>
+    <script>
+        window.onload = function() {
+            // Redirect to nexus:// URL scheme
+            window.location.href = 'nexus://'; 
+        };
+    </script>
 </head>
 <body>
-    <h1>nexus screen coming through for testing use this</h1>
-    <a href="getStarted.html">Get Started</a><br><br>
-    <a href="set-up.html">set page up</a>
-    
-
-function hideAnimation() {
-  const signUpBtnText = document.getElementById("signUpBtnText");
-  const animationDiv = document.getElementById("animationDiv");
-  signUpBtnText.style.display = "block";
-  animationDiv.style.display = "none";
-}
-
-/
-
-
-// Switch between forms
-signUpForm.style.display = "block";
-loginForm.style.display = "none";
-
-loginSwitchBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  signUpForm.style.display = "none";
-  loginForm.style.display = "block";
-});
-
-signUpSwitchBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  loginForm.style.display = "none";
-  signUpForm.style.display = "block";
-});
-<script>
-    window.onload = function() {
-    window.location.href = 'nexus://your/data'; // Replace with your desired URL
-};
-
-</script>
+    <p>Redirecting...</p>
 </body>
 </html>
